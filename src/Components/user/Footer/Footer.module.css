@@ -1,0 +1,43 @@
+
+
+/* Footer.module.css */
+.footer {
+  position: relative; /* أو absolute إذا كنت تريد التحكم في موقعه */
+  left: 0; /* محاذاة إلى اليسار */
+  bottom: 0; /* محاذاة إلى الأسفل */
+  width: 100%; /* عرض الفوتر بالكامل */
+  background-color: #ac8dd3; /* لون الخلفية */
+  color: white; /* لون النص */
+  text-align: center; /* محاذاة النص إلى المنتصف */
+  padding: 10px 0; /* إضافة مساحة داخلية */
+  z-index: 1000; /* التأكد من أن الفوتر فوق أي محتوى آخر */
+  border-radius: 30px;
+}
+
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.location {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.location i {
+  margin-right: 8px;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #555;
+}

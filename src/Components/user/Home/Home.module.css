@@ -1,0 +1,31 @@
+.home {
+    margin: 0;
+    padding: 0;
+    background-image: url('./coverpage.jpg'); /* استخدم المسار الصحيح للصورة */
+    background-size: cover; /* جعل الصورة تغطي الخلفية */
+    background-position: center; /* جعل الصورة في المنتصف */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: calc(100vh - 100px); /* ترك مساحة للفوتر */
+
+
+}
+
+.home h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ac8dd3;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #6A0dad;
+}

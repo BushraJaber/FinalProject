@@ -1,0 +1,51 @@
+
+.container {
+    margin-top: 60px; /* إضافة مسافة أعلى المحتوى (تعديل حسب ارتفاع النافبار) */
+    padding: 20px; /* إضافة padding لتوسيع المحتوى */
+    display: flex; /* استخدام flexbox */
+    flex-direction: column; /* ترتيب العناصر عموديًا */
+    align-items: center; /* محاذاة العناصر إلى الوسط */
+    justify-content: center; /* محاذاة العناصر عموديًا في المركز */
+    width: 100%; 
+    max-width: 400px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-image: url('./coverpage.jpg'); /* يمكنك تعديل صورة الخلفية هنا */
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 10px; 
+  }
+  
+  h1 {
+    font-size: 2rem; /* حجم الخط */
+    margin-bottom: 20px; /* مسافة تحت العنوان */
+    color: rgb(99, 53, 137); /* لون الخط */
+  }
+  
+  .form-floating {
+    width: 100%; /* جعل الحقول تأخذ عرض الحاوية */
+  }
+  
+  .btn {
+    margin-top: 20px; /* إضافة مسافة أعلى الزر */
+    background-color: #5e2d91; 
+    color: white; 
+    border: 2px solid white; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    text-align: center; 
+    width: 100%; 
+  }
+  
+  .btn:hover {
+    background-color: #885aa9; 
+  }
+  .text-purple {
+    color: rgb(128, 18, 128); /* يمكنك تغيير اللون هنا إلى أي درجة من البنفسجي تفضلها */
+    text-decoration: none; /* لإزالة الخط السفلي */
+  }
+  
+  .text-purple:hover {
+    text-decoration: underline; /* لإضافة خط سفلي عند تمرير الفأرة فوق الرابط */
+  }

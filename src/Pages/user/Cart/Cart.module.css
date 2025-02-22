@@ -1,0 +1,96 @@
+.container {
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tr {
+  background: #f9f9f9;
+}
+
+.tableHeaderRow {
+  background: #ac8dd3;
+  color: #fff;
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.increaseButton,
+.decreaseButton,
+.clearButton {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.increaseButton {
+  background: #28a745;
+  color: #fff;
+}
+
+.decreaseButton {
+  background: #dc3545;
+  color: #fff;
+}
+
+.clearButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #dc3545;
+  color: #fff;
+}
+
+.increaseButton:hover,
+.decreaseButton:hover,
+.clearButton:hover {
+  transform: scale(1.1); /* تأثير تكبير عند التحويم */
+}
+
+.increaseButton:active,
+.decreaseButton:active,
+.clearButton:active {
+  transform: scale(0.95); /* تأثير ضغط عند النقر */
+}
+
+.clearButton {
+  margin-top: 30px; /* زيادة المسافة بين الأزرار */
+}
+.removeButton {
+  padding: 3px 8px; /* تقليل الحجم */
+  font-size: 12px; /* تقليل حجم الخط */
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.removeButton:hover {
+  transform: scale(1.1); /* تأثير تكبير عند التحويم */
+}
+
+.removeButton:active {
+  transform: scale(0.95); /* تأثير ضغط عند النقر */
+}

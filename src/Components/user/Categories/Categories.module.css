@@ -1,0 +1,10 @@
+section{
+    padding: 100px;
+}
+.loading {
+    display: flex;              /* استخدام flexbox */
+    flex-direction: column;    /* جعل العناصر تتراصف عمودياً */
+    align-items: center;       /* محاذاة العناصر في المنتصف أفقياً */
+    justify-content: center;    /* محاذاة العناصر في المنتصف عمودياً */
+  }
+  

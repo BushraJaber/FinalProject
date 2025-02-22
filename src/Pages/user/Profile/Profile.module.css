@@ -1,0 +1,101 @@
+/* تنسيق الحاوية الرئيسية */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* تنسيق بطاقة المستخدم */
+  .profileCard {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }.imageSection {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .previewImage {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .refreshBtn {
+    margin-top: 20px;
+  }
+  
+  
+  /* تنسيق أزرار التحديث */
+  .refreshBtn {
+    background-color: #7979b0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .refreshBtn:hover {
+    background-color: #5fa262;
+  }
+  
+  /* تنسيق قائمة الطلبات */
+  .ordersList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* تنسيق بطاقة الطلب */
+  .orderCard {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .orderDetails p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* تنسيق الأزرار الخاصة بالطلب */
+  .orderActions {
+    margin-top: 20px;
+  }
+  
+  .detailsBtn {
+    background-color: #7979b0;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .detailsBtn:hover {
+    background-color: #915eb0;
+  }
+  

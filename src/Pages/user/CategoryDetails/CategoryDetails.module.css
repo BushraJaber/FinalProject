@@ -1,0 +1,32 @@
+/* تعديل تصميم البطاقة */
+.product {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* جعل الزر يبقى في أسفل البطاقة */
+.detailsButton {
+    display: block;
+    padding: 10px 15px;
+    background-color: #ac8dd3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* يضمن بقاء الزر في أسفل البطاقة */
+}
+
+/* تأثير عند تمرير الماوس */
+.detailsButton:hover {
+    background-color: #9059c5;
+}

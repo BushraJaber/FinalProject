@@ -1,0 +1,121 @@
+.container {
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('./coverpage.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(99, 53, 137);
+  }
+  
+  .orderForm {
+    width: 100%;
+  }
+  
+  .inputGroup {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup label {
+    font-size: 1rem;
+    color: rgb(99, 53, 137);
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+    color: rgb(99, 53, 137);
+  }
+  
+  .inputGroup input:focus {
+    border-color: #5e2d91;
+  }
+  
+  .inputGroup input::placeholder {
+    color: rgb(99, 53, 137);
+    font-style: italic;
+  }
+  
+  .submitButton {
+    margin-top: 20px;
+    background-color: #5e2d91;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submitButton:hover {
+    background-color: #885aa9;
+  }
+  
+  .submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  .cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* توزيع العناصر بشكل متساوٍ */
+    width: 100%;
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .productImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    flex-shrink: 0; /* منع الصورة من التقلص */
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+  
+  .productDetails {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* مسافة بين العناصر */
+    flex-grow: 1; /* جعل المحتوى يأخذ المساحة المتاحة */
+  }
+  
+  .productQuantity {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5e2d91;
+  }

@@ -1,0 +1,55 @@
+.products {
+    display: flex; /* استخدام الفليكس */
+    flex-wrap: wrap; /* السماح بتوزيع العناصر على عدة صفوف */
+    justify-content: center; /* محاذاة العناصر في الوسط */
+    margin: 20px; /* إضافة مسافة خارجية */
+}
+.product-title {
+    font-size: 1.2rem; /* حجم الخط */
+    font-weight: bold; /* سمك الخط */
+    margin-bottom: 10px; /* مسافة سفلية */
+    text-align: center; /* محاذاة النص في الوسط */
+}
+
+.product {
+    margin: 10px; /* إضافة مسافة بين المنتجات */
+    text-align: center; /* محاذاة النص في الوسط */
+}
+
+.product img {
+    max-width: 100%; /* عرض الصورة 100% من الكارد */
+    max-height: 200px; /* ارتفاع أقصى للصورة */
+    object-fit: contain; /* الحفاظ على نسبة العرض إلى الارتفاع */
+}
+
+.detailsLink {
+    display: inline-block; /* جعل الرابط يظهر كزر */
+    margin-top: 10px; /* إضافة مسافة بين العنوان والرابط */
+    padding: 10px; /* حشوة للزر */
+    background-color: darkviolet; /* لون الخلفية */
+    color: white; 
+    border-radius: 5px; /* زوايا مستديرة */
+    text-decoration: none; /* إزالة التسطير */
+}
+
+.detailsLink:hover {
+    background-color: violet; /* تغيير اللون عند التمرير */
+}
+
+.backButton {
+    display: inline-block; /* يجعل الزر كعنصر مضمّن */
+    margin-top: 20px; /* مسافة من الأعلى */
+    padding: 10px 20px; /* حشوة للزر */
+    background-color: darkviolet; /* لون الخلفية */
+    color: white; /* لون النص */
+    border: none; /* بدون إطار */
+    border-radius: 5px; /* زوايا مستديرة */
+    text-decoration: none; /* إزالة الخط السفلي */
+    font-size: 16px; /* حجم الخط */
+    cursor: pointer; 
+    visibility: visible; 
+}
+
+.backButton:hover {
+    background-color: violet; 
+}
