@@ -102,4 +102,98 @@
   .backButton:hover {
     background-color: violet;
   }
-  
+  /* قسم المراجعات */
+.reviewsSection {
+  margin-top: 30px;
+  text-align: left;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* عنوان قسم المراجعات */
+.reviewsSection h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* قائمة المراجعات */
+.reviewsList {
+  margin-bottom: 20px;
+}
+
+.reviewItem {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.reviewItem .reviewRating {
+  font-size: 18px;
+  color: #f39c12;
+  margin-bottom: 5px;
+}
+
+.reviewItem .reviewComment {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* رسالة إذا لم توجد مراجعات */
+.reviewsSection p {
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* نموذج إضافة المراجعة */
+.reviewForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.reviewForm textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.reviewForm input {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.reviewForm button {
+  padding: 10px 20px;
+  background-color: darkviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.reviewForm button:hover {
+  background-color: violet;
+}
