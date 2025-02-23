@@ -7,10 +7,11 @@ import Categories from "../Components/user/Categories/Categories.jsx";
 import CategoryDetails from "../Pages/user/CategoryDetails/CategoryDetails.jsx";
 import Product from "../Pages/user/product/product.jsx"; 
 import AllProduct from "../Pages/user/Allproduct/Allproduct.jsx";
-import ForgotPassword from "../pages/user/ForgotPassword/ForgotPassword.jsx"; // Ensure the component is imported correctly
+import ForgotPassword from "../Pages/user/ForgotPassword/ForgotPassword.jsx"; // Ensure the component is imported correctly
 import Cart from "../Pages/user/Cart/Cart.jsx"; // Import Cart component
 import Order from "../Pages/user/Order/Order.jsx"; // Import the Order component
 import Profile from "../Pages/user/Profile/Profile.jsx"; // تأكد من المسار الصحيح
+
 
 
 
