@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import styles from './Product.module.css';
+import styles from './product.module.css';
 
 export default function Product() {
   const [product, setProduct] = useState(null);
